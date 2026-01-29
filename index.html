@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPress Developer & Digital Marketer | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="kodu_image.jpeg">
+</head>
+
+<body>
+    <div class="bg-glow" id="bgGlow"></div>
+
+    <header>
+        <nav class="container">
+            <div class="logo">Faizan<span> Ali</span></div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1><span class="greeting">Hi, I'm</span> <span class="name-animate">Faizan Ali</span></h1>
+                <p class="hero-subtitle"> <span class="typing" id="typing"></span></p>
+                <h2>Specializing in <span class="highlight-python">WordPress, SEO & Digital Marketing</span></h2>
+                <p>Building and managing WordPress sites, improving SEO, and running effective digital & social media marketing</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="img-wrapper">
+                    <img src="kodu_image.jpeg " alt="Profile Picture">
+                </div>
+            </div>
+        </div>
+        <a href="#skills" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <section id="skills" class="skills-section reveal">
+        <div class="container">
+            <h2 class="section-title skill">Professional Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card reveal rotate">
+                    <div class="skill-icon">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <h3>WordPress</h3>
+                    <p>Theme and plugin customization, site builds and maintenance.</p>
+                    <div class="tech-tags">
+                        <span>WP Themes</span>
+                        <span>Plugins</span>
+                        <span>PHP</span>
+                    </div>
+                </div>
+
+                <div class="skill-card reveal rotate">
+                    <div class="skill-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO</h3>
+                    <p>On-page & technical SEO, keyword research and audits.</p>
+                    <div class="tech-tags">
+                        <span>Audits</span>
+                        <span>On-Page</span>
+                        <span>Technical SEO</span>
+                    </div>
+                </div>
+
+                <div class="skill-card reveal rotate">
+                    <div class="skill-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Campaign strategy, paid ads and conversion optimization.</p>
+                    <div class="tech-tags">
+                        <span>Google Ads</span>
+                        <span>Email</span>
+                        <span>Landing Pages</span>
+                    </div>
+                </div>
+
+                <div class="skill-card reveal rotate">
+                    <div class="skill-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3>Social Media</h3>
+                    <p>Content planning, growth strategies and community management.</p>
+                    <div class="tech-tags">
+                        <span>Content</span>
+                        <span>Ads</span>
+                        <span>Engagement</span>
+                    </div>
+                </div>
+
+                <div class="skill-card reveal rotate">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics</h3>
+                    <p>Tracking, reporting and data-driven optimization.</p>
+                    <div class="tech-tags">
+                        <span>GA4</span>
+                        <span>Data</span>
+                        <span>Reports</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section reveal">
+        <div class="container">
+            <h2 class="section-title ">My Projects</h2>
+
+            <h3 class="subsection-title">WordPress Projects</h3>
+            <div class="projects-grid">
+                <!-- WP Project 1 -->
+                <div class="project-card reveal one">
+                    <div class="project-img">
+                        <img class="project-image" src="assets/wp-agency.jpg" alt="Agency WordPress Site">
+                    </div>
+                    <div class="project-info">
+                        <h3>Agency WordPress Site</h3>
+                        <p>Custom WordPress site with theme customization and SEO optimization.</p>
+                        <div class="tech-stack">
+                            <span>WordPress</span>
+                            <span>PHP</span>
+                            <span>SEO</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- <a href="#" class="btn-small"><i class="fab fa-github"></i> Code</a> -->
+                            <a href="#" class="btn-small"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WP Project 2 -->
+                <div class="project-card reveal two">
+                    <div class="project-img">
+                        <img class="project-image" src="assets/lms-site.jpg" alt="Courses & LMS Site">
+                    </div>
+                    <div class="project-info">
+                        <h3>Courses & LMS Site</h3>
+                        <p>WordPress-based LMS integration for online course delivery.</p>
+                        <div class="tech-stack">
+                            <span>WordPress</span>
+                            <span>LMS</span>
+                            <span>Plugins</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- <a href="#" class="btn-small"><i class="fab fa-github"></i> Code</a> -->
+                            <a href="#" class="btn-small"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">Social Media & Marketing Case Studies</h3>
+            <div class="projects-grid">
+                <!-- Social Project 1 -->
+                <div class="project-card reveal three">
+                    <div class="project-img">
+                        <img class="project-image" src="assets/instagram-campaign.jpg" alt="Instagram Growth Campaign">
+                    </div>
+                    <div class="project-info">
+                        <h3>Instagram Growth Campaign</h3>
+                        <p>Increased followers by 150% and improved engagement through strategic content.</p>
+                        <div class="tech-stack">
+                            <span>Content</span>
+                            <span>Ads</span>
+                            <span>Analytics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Project 2 -->
+                <div class="project-card reveal three">
+                    <div class="project-img">
+                        <img class="project-image" src="assets/facebook-ads.jpg" alt="Facebook Ads Campaign">
+                    </div>
+                    <div class="project-info">
+                        <h3>Facebook Ads Campaign</h3>
+                        <p>Optimized ad creatives and targeting, reducing CPA by 40%.</p>
+                        <div class="tech-stack">
+                            <span>Facebook Ads</span>
+                            <span>Analytics</span>
+                            <span>CRO</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn-small"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <a href="https://wa.me/923335697998" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    </a>
+
+
+    <section id="contact" class="contact-section reveal three">
+        <div class="container">
+            <h2 class="section-title touch">Get In Touch</h2>
+            <p>Interested in working together? Let's talk.</p>
+            <a href="mailto:hattafahmad@gmail.com" class="btn btn-primary">Send Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Full Stack Developer. All rights reserved.</p>
+            <div class="social-links">
+                <!-- <a href="https://github.com/hattafahmad"><i class="fab fa-github"></i></a> -->
+                <a href="https://www.linkedin.com/in/hattaf-ahmad-31a595378/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/i_m_htf/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
